@@ -14,7 +14,7 @@ const EditHotspot = () => {
       <div className="d-flex justify-content-between  ">
         <p>Edit Hotspot</p>
         <div className="">
-          <img src={trashIcon} alt="" />
+          <img src={trashIcon} alt="" className="custom-hover" />
         </div>
       </div>
       <form className="d-flex flex-column gap-4">
@@ -37,18 +37,17 @@ const EditHotspot = () => {
           ></textarea>
         </div>
 
-        <div className="d-flex gap-5">
+        <div className="d-flex gap-5 ">
           <div>
             <input
               type="color"
               id="favcolor"
               name="favcolor"
               value="#FF0000"
-              className=" border-0 rounded"
+              className="p-0 border-0 rounded"
               style={{
                 width: "40px",
                 height: "40px",
-
                 borderRadius: "8px",
               }}
             />
@@ -61,12 +60,12 @@ const EditHotspot = () => {
               id="favcolor"
               name="favcolor"
               value="#FF0000"
-              className="border-0 rounded"
+              className="p-0 border-0 rounded"
               style={{
                 width: "40px",
                 height: "40px",
                 border: "none",
-                backgroundColor: "#FFFFFF",
+                outline: "none",
               }}
             />
             <p>Text Colour</p>

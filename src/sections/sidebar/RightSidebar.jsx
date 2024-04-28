@@ -11,22 +11,22 @@ const RightSidebar = () => {
       <div className="d-flex flex-column  m-0  align-items-center p-5">
         <img src={frameZero} alt="" />
         <p>Add Chapters</p>
-        <img src={plusIcon} alt="" />
+        <img src={plusIcon} alt="" className="custom-hover" />
       </div>
       <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img src={frameOne} alt="" />
-        <img src={plusIcon} alt="" />
+        <img src={plusIcon} alt="" className="custom-hover" />
       </div>
       <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img src={frameTwo} alt="" />
-        <img src={plusIcon} alt="" />
+        <img src={plusIcon} alt="" className="custom-hover" />
       </div>
       <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img
           src={frameThree}
           alt="d-flex flex-column  m-0  align-items-center p-2"
         />
-        <img src={plusIcon} alt="" />
+        <img src={plusIcon} alt="" className="custom-hover" />
       </div>
     </div>
   );

@@ -21,7 +21,18 @@ const Sidebar = () => {
       {/* Menu icons top div */}
       <div className="d-flex flex-column align-items-center gap-4 p-4 mb-5">
         <div className="">
-          <img src={blackRectIcon} alt="" />
+          <input
+            type="color"
+            id="favcolor"
+            name="favcolor"
+            value="#000000"
+            className="p-0 border-0 rounded"
+            style={{
+              width: "40px",
+              height: "40px",
+              borderRadius: "8px",
+            }}
+          />
         </div>
         <div>
           <p>Menu</p>
