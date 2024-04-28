@@ -1,24 +1,23 @@
 import "./App.css";
-import Banner from "./sections/body/Banner";
+
 import Navbar from "./sections/body/Navbar";
-import NavbarTest from "./sections/body/NavbarTest";
-import NavbarTwo from "./sections/body/NavbarTwo";
-import NavbarTwoTest from "./sections/body/NavbarTwoTest";
-import RightSideBar from "./sections/sidebar/RightSideBar";
-import RightSidebarTest from "./sections/sidebar/RightSidebarTest";
+
+import EditingOptions from "./sections/body/EditingOptions";
+
+import RightSidebar from "./sections/sidebar/RightSidebar";
+
 import Sidebar from "./sections/sidebar/Sidebar";
-import SidebarTest from "./sections/sidebar/SidebarTest";
 
 function App() {
   return (
     <>
       <div className="d-flex flex-row">
-        <SidebarTest />
+        <Sidebar />
         <div style={{ width: "100%" }}>
-          <NavbarTest />
+          <Navbar />
           <div className="d-flex">
-            <NavbarTwoTest />
-            <RightSidebarTest />
+            <EditingOptions />
+            <RightSidebar />
           </div>
         </div>
       </div>

@@ -5,3 +5,8 @@
 body {
     font-family: "Nunito Sans", sans-serif;
 }
+
+.custom-hover {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }

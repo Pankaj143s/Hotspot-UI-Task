@@ -5,7 +5,7 @@ import frameTwo from "../../assets/frame_Two.png";
 import frameThree from "../../assets/frame_Three.png";
 import plusIcon from "../../assets/plus_Icon.png";
 
-const RightSidebarTest = () => {
+const RightSidebar = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center gap-2 border">
       <div className="d-flex flex-column  m-0  align-items-center p-5">
@@ -13,15 +13,15 @@ const RightSidebarTest = () => {
         <p>Add Chapters</p>
         <img src={plusIcon} alt="" />
       </div>
-      <div className="d-flex flex-column  m-0  align-items-center p-2">
+      <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img src={frameOne} alt="" />
         <img src={plusIcon} alt="" />
       </div>
-      <div className="d-flex flex-column  m-0  align-items-center p-2">
+      <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img src={frameTwo} alt="" />
         <img src={plusIcon} alt="" />
       </div>
-      <div className="d-flex flex-column  m-0  align-items-center p-2">
+      <div className="d-flex flex-column  m-0  align-items-center p-2 gap-3">
         <img
           src={frameThree}
           alt="d-flex flex-column  m-0  align-items-center p-2"
@@ -32,4 +32,4 @@ const RightSidebarTest = () => {
   );
 };
 
-export default RightSidebarTest;
+export default RightSidebar;

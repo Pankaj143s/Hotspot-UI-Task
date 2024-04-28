@@ -5,96 +5,86 @@ import bellIcon from "../../assets/bell_Icon.png";
 
 const Navbar = () => {
   return (
-    <div
-      className="d-flex border User
-    navbar-expand-xl"
-    >
-      {/* Back Demo1 Search div */}
-      <div
-        className="d-flex align-items-center justify-content-around"
-        style={{ width: "856px", height: "64px", padding: "0px 48px" }}
-      >
-        <div>
-          <button
-            style={{
-              backgroundColor: "#00668C",
-              width: "184px",
-              height: "48px",
-              color: "#FFFFFF",
-              border: "none",
-            }}
-            className="rounded"
-          >
-            Back
-          </button>
-        </div>
-        <div className="align-content-center">Demo 1</div>
-        <div>
-          <div
-            className=" align-content-center input-group border rounded"
-            style={{
-              borderColor: "#D7DBEC",
-              width: "391px",
-              height: "48px",
-              padding: "12px 16px",
-            }}
-          >
-            <input
-              type="text"
-              placeholder="Search"
-              className="form-control border-0 bg-transparent"
-            />
-            <div className="input-group-append">
-              <span className="input-group-text bg-transparent border-0">
-                <img src={searchICon} alt="" />
-              </span>
+    <div className=" d-flex justify-content-center align-items-center p-3 border">
+      {/* Back */}
+      <div className="px-5">
+        <button
+          style={{
+            backgroundColor: "#00668C",
+            color: "#FFFFFF",
+            border: "none",
+          }}
+          className="btn btn-lg  px-5  fs-6 rounded"
+        >
+          Back
+        </button>
+      </div>
+      {/* Demo 1 */}
+      <div className="px-5">
+        {" "}
+        <p className="m-0">Demo 1</p>
+      </div>
+
+      {/* Search */}
+      <div className="px-5">
+        <div className="container " style={{ maxWidth: "300px" }}>
+          <div className="row justify-content-center">
+            <div className="col">
+              <div className="input-group border rounded">
+                <input
+                  type="text"
+                  className="form-control border-0 "
+                  placeholder="Search"
+                />
+                <span className="input-group-text border-0 bg-transparent">
+                  <img src={searchICon} alt="" />
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* Preview Share Bell Profile div */}
-      <div
-        className="d-flex align-items-center  gap-2"
-        style={{ width: "522px", height: "64px" }}
-      >
-        <div>
-          <button
-            style={{
-              backgroundColor: "#00668C",
-              width: "137px",
-              height: "48px",
-              color: "#FFFFFF",
-              border: "none",
-            }}
-            className="rounded gap-1"
-          >
-            Preview
-          </button>
-        </div>
-        <div>
-          <button
-            style={{
-              backgroundColor: "#00668C",
-              width: "137px",
-              height: "48px",
-              color: "#FFFFFF",
-              border: "none",
-            }}
-            className="rounded"
-          >
-            Share
-          </button>
-        </div>
-        <div className="d-flex gap-2">
+      {/* Preview */}
+      <div className="px-2">
+        <button
+          style={{
+            backgroundColor: "#00668C",
+            color: "#FFFFFF",
+            border: "none",
+          }}
+          className="btn btn-lg px-5 fs-6 rounded"
+        >
+          Preview
+        </button>
+      </div>
+      {/* Share */}
+      <div className="px-2">
+        {" "}
+        <button
+          style={{
+            backgroundColor: "#00668C",
+            color: "#FFFFFF",
+            border: "none",
+          }}
+          className="btn btn-lg px-5 fs-6 rounded"
+        >
+          Share
+        </button>
+      </div>
+      {/* Bell */}
+      <div className="px-2">
+        <div className="d-flex gap-3 ">
           <img
             src={bellIcon}
             alt=""
             style={{ width: "24px", height: "24px" }}
+            className="custom-hover"
           />
           <img
             src={girlProfile}
             alt=""
             style={{ width: "24px", height: "24px" }}
+            className="custom-hover"
           />
         </div>
       </div>
