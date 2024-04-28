@@ -15,51 +15,51 @@ const Sidebar = () => {
         className="d-flex flex-column justify-content-between border  bg-light "
         style={{
           padding: "24px 16px 24px 16px",
-          width: "98px",
-          height: "800px",
+          // width: "98px",
+          // height: "800px",
         }}
       >
         {/* Menu Div */}
         <div
           className="d-flex flex-column gap-3"
-          style={{ width: "64px", heigh: "352px" }}
+          // style={{ width: "64px", heigh: "352px" }}
         >
           {/* Black Box Div */}
           <div
             className="gap-2"
-            style={{ width: "64px", height: "64px", padding: "8px" }}
+            // style={{ width: "64px", height: "64px", padding: "8px" }}
           >
             <img
               src={blackRectIcon}
               alt=""
-              style={{ width: "48px", height: "48px" }}
+              // style={{ width: "48px", height: "48px" }}
             />
           </div>
           {/* Menu  Icon Div */}
           <div
             className="d-flex flex-column gap-4"
-            style={{
-              width: "40px",
-              height: "264px",
-              marginLeft: "auto",
-              marginRight: "auto",
-            }}
+            // style={{
+            //   width: "40px",
+            //   height: "264px",
+            //   marginLeft: "auto",
+            //   marginRight: "auto",
+            // }}
           >
             {/* menu1 */}
             <div>
-              <div style={{ width: "35px", height: "16px" }}>
+              <div>
                 <p>MENU</p>
               </div>
             </div>
             {/* icon1 */}
             <div
               className="d-flex flex-column gap-2"
-              style={{ width: "40px", height: "232px" }}
+              // style={{ width: "40px", height: "232px" }}
             >
               <div
                 style={{
-                  width: "40px",
-                  height: "40px",
+                  // width: "40px",
+                  // height: "40px",
                   padding: "8px",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -69,8 +69,8 @@ const Sidebar = () => {
               </div>
               <div
                 style={{
-                  width: "40px",
-                  height: "40px",
+                  // width: "40px",
+                  // height: "40px",
                   padding: "8px",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -80,8 +80,8 @@ const Sidebar = () => {
               </div>
               <div
                 style={{
-                  width: "40px",
-                  height: "40px",
+                  // width: "40px",
+                  // height: "40px",
                   padding: "8px",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -91,8 +91,8 @@ const Sidebar = () => {
               </div>
               <div
                 style={{
-                  width: "40px",
-                  height: "40px",
+                  // width: "40px",
+                  // height: "40px",
                   padding: "8px",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -102,8 +102,8 @@ const Sidebar = () => {
               </div>
               <div
                 style={{
-                  width: "40px",
-                  height: "40px",
+                  // width: "40px",
+                  // height: "40px",
                   padding: "8px",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -120,14 +120,14 @@ const Sidebar = () => {
             <img
               src={girl_Profile}
               alt=""
-              style={{ width: "48px", height: "48px" }}
+              // style={{ width: "48px", height: "48px" }}
             />
           </div>
           <div className="p-0">
             <img
               src={plusRect_Icon}
               alt=""
-              style={{ width: "50px", height: "50px" }}
+              // style={{ width: "50px", height: "50px" }}
             />
           </div>
 
@@ -135,7 +135,7 @@ const Sidebar = () => {
             <img
               src={switch_Icon}
               alt=""
-              style={{ width: "40px", height: "40px" }}
+              // style={{ width: "40px", height: "40px" }}
             />
           </div>
         </div>

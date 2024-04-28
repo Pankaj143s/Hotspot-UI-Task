@@ -5,7 +5,10 @@ import bellIcon from "../../assets/bell_Icon.png";
 
 const Navbar = () => {
   return (
-    <div className="d-flex border" style={{ width: "1341px", height: "64px" }}>
+    <div
+      className="d-flex border User
+    navbar-expand-xl"
+    >
       {/* Back Demo1 Search div */}
       <div
         className="d-flex align-items-center justify-content-around"
