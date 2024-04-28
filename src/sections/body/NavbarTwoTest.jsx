@@ -13,7 +13,7 @@ const NavbarTwoTest = () => {
     <div>
       <div>
         {/* Navbar Two */}
-        <div className="d-flex border justify-content-between align-items-center p-4 w-75">
+        <div className="d-flex border justify-content-between align-items-center p-4 ">
           <div>
             <img src={voiceOver_Icon} alt="" />
             <span className="p-1">Voiceover</span>
@@ -41,7 +41,7 @@ const NavbarTwoTest = () => {
           </div>
         </div>
         {/* Banner Image  */}
-        <div className="p-5">
+        <div className="p-3">
           <img src={bannerImage} alt="" />
         </div>
       </div>
